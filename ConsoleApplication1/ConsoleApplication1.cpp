@@ -7,5 +7,5 @@ int main()
         c = getchar();
         if (c != EOF)
             putchar(c);
-    } while (c == EOF);
+    } while (c <= EOF);
 }
